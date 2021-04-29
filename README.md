@@ -22,6 +22,15 @@ For exploring this particular thing, I looked at the file ```tn_movie_budgets_gz
 
 !["Most Profitable Films"](most_profitable_films.png)
 
+# Average Worldwide Gross per movie genre
+
+Using our earlier data of top grossing films, we decided we needed to investigate genres as well. We used the ```file``` and this time around we limited our data to eliminate outliers
+
+```outlier_elimination_code```
+
+The resultant plot looked like this:
+!["Revenue per film"](highest_revenue_per_movie.png)
+
 
 ```python
 
